@@ -1,0 +1,156 @@
+body{
+    background-color: #0f171e;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header img{
+    width: 10%;
+    padding: 8px
+}
+
+header{
+    height: 60px;
+    background-color:  #0f171e;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+
+
+}
+
+header ul{
+    margin: 0%;
+    padding: 8px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+main img{
+    width: 8%;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    color: white;
+    font-size: 35px;
+}
+
+.top label{
+    padding: 10px;
+    color: gray;
+    font-size: 20px;
+}
+
+
+.top input{
+    margin: 40px;
+    height: 53px;
+    width: 350px;
+    /*background-color: rgb(237, 236, 236);*/
+    background-color: #0e1319;
+    color: gray;
+    display: flex;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 45px;
+    border-radius: 20px;
+    margin: 0 0 0 20px;
+    appearance: none;
+    background-color: gray;
+}
+
+input:checked[type="checkbox"]{
+    background-color: rgb(56, 128, 157);
+}
+
+input[type = "checkbox"]::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    right:0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+input:checked:before{
+    content: "";
+    position: absolute;
+    left: 25px;
+}
+
+.bottom a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+input[type="button"]{
+    display: flex;
+    align-self: flex-start;
+    color: whitesmoke;
+    background-color: #1c2a36;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cancel{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 0 0 0;
+    padding: 10px 8px 10px 8px;
+    list-style: none;
+    background-color: #0e1319;
+}
+
+footer ul li >a{
+    color: white;
+
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
